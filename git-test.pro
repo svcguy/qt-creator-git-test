@@ -4,4 +4,11 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+    myclass.cpp
+
+DISTFILES += \
+    README.md
+
+HEADERS += \
+    myclass.h
